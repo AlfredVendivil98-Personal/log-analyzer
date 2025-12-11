@@ -1,0 +1,20 @@
+{
+    "INFO": 18,
+    "WARNING": 5,
+    "ERROR": 6,
+    "MALFORMED": 1,
+    "Top Errors": [
+        [
+            "Failed to connect to message queue: Timeout after 5000ms",
+            2
+        ],
+        [
+            "Authentication failed: Invalid credentials",
+            1
+        ],
+        [
+            "Failed to write job result to disk: Permission denied",
+            1
+        ]
+    ]
+}

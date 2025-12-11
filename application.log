@@ -1,0 +1,35 @@
+2025-01-14 09:12:03 [INFO] Application started successfully
+2025-01-14 09:12:04 [INFO] Loading configuration from config.yaml
+2025-01-14 09:12:05 [WARNING] Missing optional field 'debug_mode' in config
+2025-01-14 09:12:07 [INFO] Database connection established
+2025-01-14 09:12:10 [ERROR] Failed to connect to message queue: Timeout after 5000ms
+2025-01-14 09:12:11 [INFO] Retrying connection (attempt 1)
+2025-01-14 09:12:13 [ERROR] Failed to connect to message queue: Timeout after 5000ms
+2025-01-14 09:12:14 [WARNING] Slow response detected from downstream API
+2025-01-14 09:12:17 [INFO] Message queue connection established
+2025-01-14 09:12:20 [INFO] System health check passed
+
+2025-01-14 09:15:01 [INFO] User login request received
+2025-01-14 09:15:02 [ERROR] Authentication failed: Invalid credentials
+2025-01-14 09:15:03 [INFO] User login request received
+2025-01-14 09:15:03 [INFO] Authentication successful for user 'admin'
+2025-01-14 09:15:10 [WARNING] High memory usage detected: 87%
+
+2025-01-14 09:16:45 [INFO] Processing job ID 23871
+2025-01-14 09:16:47 [INFO] Job 23871 completed successfully
+2025-01-14 09:16:48 [ERROR] Failed to write job result to disk: Permission denied
+2025-01-14 09:16:51 [WARNING] Disk usage reached 91%
+
+2025-01-14 09:17:20 [INFO] API request received: /orders/create
+2025-01-14 09:17:21 [ERROR] Order creation failed: Database unavailable
+2025-01-14 09:17:25 [INFO] API request received: /orders/status
+MALFORMED LINE WITHOUT PROPER FORMAT
+2025-01-14 09:17:26 [INFO] API request processed successfully
+
+2025-01-14 09:18:00 [WARNING] Background worker 'worker-2' restarted unexpectedly
+2025-01-14 09:18:02 [ERROR] Worker 'worker-2' crashed: Segmentation fault
+2025-01-14 09:18:10 [INFO] Worker 'worker-2' back online
+
+2025-01-14 09:19:00 [INFO] Heartbeat signal received
+2025-01-14 09:19:10 [INFO] Heartbeat signal received
+2025-01-14 09:19:20 [INFO] Heartbeat signal received
