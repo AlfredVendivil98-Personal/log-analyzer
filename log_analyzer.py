@@ -15,8 +15,6 @@ def print_output(data, json_check):
     #Note: If you loop over a dictionary directly, you only get the keys
     #Note: If you want all items in a dictionary, use .items() method
 
-
-
 def main():
     parser = argparse.ArgumentParser()
 
